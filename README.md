@@ -30,8 +30,6 @@ if [ "$os" = "$servername" ];
 then
   echo ""
   docker_script
-  echo "Test is succesfull"
-
 else
   echo "test is failed and exiting from here now"
   exit 1
